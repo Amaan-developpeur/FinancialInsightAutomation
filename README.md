@@ -1,0 +1,1 @@
+Financial Insights Automation is a data ingestion, processing, and retrieval pipeline for Indian stock market and financial news data. It integrates data ingestion, chunking, embedding, and retrieval using modern tools such as Airflow, LangChain, Chroma DB, and FastAPI. The system is designed for building searchable knowledge bases from financial news and stock data.

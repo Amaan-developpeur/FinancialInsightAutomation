@@ -1,0 +1,22 @@
+FinancialInsights/
+│
+├── data/
+│   ├── raw/                 # raw news JSON files
+│   └── stock/               # CSV files for stock price data
+│
+├── dags/                    # Airflow DAGs (will use later)
+│
+├── scripts/
+│   └── fetch_data.py        # Step 1: fetch news + stock prices
+│
+├── logs/                    # log files for fetch failures
+│
+├── metrics/                 # will store embedding metrics later
+│
+├── chroma_db/               # persistent Chroma vector DB (later step)
+│
+├── app/                     # FastAPI / query service (later step)
+│   └── main.py
+│
+├── requirements.txt
+└── README.md
